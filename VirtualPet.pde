@@ -6,7 +6,6 @@ void setup(){
   background(162, 191, 254);
 }
 void draw(){
-  //more of your code here
   //sky
   fill(191, 115, 48);
   rect(0, 425, 600, 24);
@@ -25,6 +24,12 @@ void draw(){
   triangle(255, 425, 265, 450, 275, 425);
   triangle(255, 425, 290, 450, 275, 425);
   triangle(255, 425, 240, 450, 275, 425);
+
+  //wings
+  stroke(0, 0, 0);
+  fill(137, 207, 255);
+  ellipse(360,305,60,165);
+  ellipse(240,305,60,165);
 
   //body
   stroke(0, 0, 0);
